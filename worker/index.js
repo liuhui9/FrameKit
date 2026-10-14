@@ -64,7 +64,7 @@ const page = `<!doctype html>
     .result-heading p { margin: 5px 0 0; color: #8492a5; font-size: 13px; }
     .format-pill { padding: 7px 10px; border-radius: 7px; background: #eef2ff; color: #546dd0; font: 800 11px ui-monospace, SFMono-Regular, Consolas, monospace; }
     .preview-stage { display: grid; place-items: center; min-height: 355px; padding: 28px; border: 1px solid #e2e7ef; border-radius: 13px; background-color: #f6f8fb; background-image: linear-gradient(45deg,#e9edf4 25%,transparent 25%),linear-gradient(-45deg,#e9edf4 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e9edf4 75%),linear-gradient(-45deg,transparent 75%,#e9edf4 75%); background-size: 24px 24px; background-position: 0 0,0 12px,12px -12px,-12px 0; }
-    .preview-stage img { display: block; width: min(100%, 700px); max-height: 320px; object-fit: contain; box-shadow: 0 17px 36px rgba(18,30,53,.13); }
+    .preview-stage img { display: block; width: min(100%, 700px); max-height: 320px; object-fit: contain; }
     .preview-stage.is-empty img { display: none; }
     .preview-message { display: none; color: #74839a; font-size: 14px; }
     .preview-stage.is-empty .preview-message { display: block; }
